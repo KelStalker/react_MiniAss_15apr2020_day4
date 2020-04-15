@@ -3,8 +3,8 @@ import ReactDOM from "react-dom";
 import ChangeText from "./components/ChangeText";
 
 class App extends React.Component {
-  componentWillUnmount() {
-    console.log('"componentWillUnmount()" ran.');
+  componentWillMount() {
+    console.log('"componentWillMount()" ran.');
   }
   render() {
     return (
