@@ -9,7 +9,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>React Day 4</h1>
+        <h1>React Day 4 Mini-Assignment</h1>
         <ChangeText />
       </div>
     );
