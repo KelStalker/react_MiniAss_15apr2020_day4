@@ -19,21 +19,19 @@ export default class ChangeText extends React.Component<
     };
     console.log("Constructor ran.");
   }
-}
-
+  
 componentDidMount()
 {
   console.log( 'Component Did NOT Mount DAMNIT!')
+  this.setState( {
+    kelText: ("Do NOT press this button!!"),
+    show: false,
+  }
 
-    this.setState( {
-        kelText: ("Do NOT press this button!!"),
-        show: this.state.kelText ,
-
-        <button onClick={this.toggleKelText}>
-
-    )};
-
-render ()
-{
-    console.log( 'render will NOT RUN!!!' );
+//     <button onClick={this.toggleKelText}>
+//     render ()
+// {
+//     console.log( 'render will NOT RUN!!!' );
+// }
+}
 }
